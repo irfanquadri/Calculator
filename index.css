@@ -6,6 +6,12 @@
     font-family: sans-serif;
     outline: none;
 }
+h1{
+    font-family: cursive;
+}
+h2{
+    font-weight:bold;
+}
 
 #inputBox{
     background-color:rgb(230, 231, 232);
@@ -96,14 +102,13 @@ button{
 }
 .footer{
     text-align:center;
-    font-size:50px;
+    font-size:20px;
 }
-h1{
-    font-family: cursive;
+i{
+    font-size:40px;
+    margin:10px;
 }
-h2{
-    font-weight:bold;
-}
+
 /* .btn {
         border-radius: 348px;
         width: 144px;
