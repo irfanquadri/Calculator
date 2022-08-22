@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:#a2a6a9;
+    font-family: sans-serif;
+    outline: none;
+}
+
+#inputBox{
+    background-color:rgb(230, 231, 232);
+}
+.mySpace{
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calculator {
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 60px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, 0.16);
+    display:grid;
+    grid-template-columns: repeat(4,78px);
+    
+}
+
+input{
+    grid-column: span 4;
+    height:100px;
+    width:280px;
+    background: color #ecf0f3;
+    box-shadow:inset -5px -5px 12px #ffffff,
+               inset  5px 5px 12px rgba(0, 0, 0, 0.16);
+    border:none;
+    border-radius:20px;
+    color:#605f5f;
+    font-size:50px;
+    text-align:end;
+    padding:0.5em;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+button{
+    background-color: #000000;
+    color:#ffffff;
+    height:48px;
+    width:48px;
+    /* background-color: #ecf0f3; */
+    margin:10px;
+    border-radius:20%;
+    border:none;
+    box-shadow: -5px -5px 12px #ecf0f3,
+                   5px 5px 12px rgba(0,0,0,.60);
+    font-size:18px;
+    cursor:pointer;
+}
+.equal{
+    width: 130px;
+    border-radius:40px;
+    background-color:orange;
+    color:black;
+}
+.C-btn{
+    background-color:rgb(185, 185, 185);
+    color:black;
+}
+.Delete{
+    background-color:rgb(185, 185, 185);
+    color:black;
+}
+.Module{
+    background-color:rgb(185, 185, 185);
+    color:black;
+}
+.Div{
+    background-color:orange;
+    color:black;
+}
+.Add{
+    background-color:orange;
+    color:black;
+}
+.Minus{
+    background-color:orange;
+    color:black;
+}
+.Multiply{
+    background-color:orange;
+    color:black;
+}
+.footer{
+    text-align:center;
+    font-size:50px;
+}
+h1{
+    font-family: cursive;
+}
+h2{
+    font-weight:bold;
+}
+/* .btn {
+        border-radius: 348px;
+        width: 144px;
+    }
+.clear{
+    font-size: 16px;
+    border-radius: 15px;
+}
+.delete{
+    font-size: 16px;
+    border-radius: 15px;
+}
+.module{
+    font-size: 16px;
+    border-radius: 15px;
+}
+.divide{
+    font-size: 16px;
+    border-radius: 15px;
+}
+.multiply{
+    font-size: 16px;
+    border-radius: 15px;
+}
+.add{
+    font-size: 16px;
+    border-radius: 15px;
+}
+.subtract{
+    font-size: 16px;
+    border-radius: 15px;
+}
+.dot{
+    font-size: 16px;
+    border-radius: 15px;
+} */
